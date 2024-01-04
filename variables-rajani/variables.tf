@@ -5,7 +5,7 @@ variable "ami-id" {
 
 variable "instance_type" {
     type = string
-    default = "t2.micro"
+    #default = "t2.micro"
 }
 
 variable "tags" {
@@ -21,7 +21,7 @@ variable "tags" {
 
 variable "sg-name" {
     type = string
-    default = "roboshop-all-aws1"
+    default = "roboshop-all-aws2"
 }
 
 variable "sg-description" {
